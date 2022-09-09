@@ -50,7 +50,7 @@ Run below commands in Kubectl shell  :
 kubectl apply -f https://github.com/jetstack/cert-manager/releases/latest/download/cert-manager.yaml
 ```
 
-You should see an output similar to below screen-shot , 
+You should see an output similar to below screen-shot
 
 ![](../images/pic10.PNG)
 

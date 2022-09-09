@@ -52,7 +52,7 @@ kubectl apply -f https://github.com/jetstack/cert-manager/releases/latest/downlo
 
 You should see an output similar to below screen-shot , 
 
-![](../images/kubewarden-success.PNG)
+![](../images/pic10.PNG)
 
 
 
@@ -85,7 +85,7 @@ helm install --wait -n kubewarden kubewarden-defaults kubewarden/kubewarden-defa
 
 Wait until you see an output similar to below screen-shot , 
 
-![](../images/pic12.png)
+![](../images/kubewarden-success.PNG)
 
 
 

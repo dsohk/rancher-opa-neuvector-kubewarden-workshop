@@ -52,9 +52,7 @@ kubectl apply -f https://github.com/jetstack/cert-manager/releases/latest/downlo
 
 You should see an output similar to below screen-shot
 
-![](../images/pic10.PNG)
-
-
+![pic10](../images/pic10.png)
 
 Now we have successfully deployed Certmanager in our cluster . The next step would be to install kubewarden stack .  
 

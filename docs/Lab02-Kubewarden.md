@@ -52,7 +52,9 @@ kubectl apply -f https://github.com/jetstack/cert-manager/releases/latest/downlo
 
 You should see an output similar to below screen-shot , 
 
-![](../images/pic10.png)
+![](../images/kubewarden-success.PNG)
+
+
 
 Now we have successfully deployed Certmanager in our cluster . The next step would be to install kubewarden stack .  
 
@@ -199,7 +201,7 @@ capsh --decode=$( cat /proc/$$/status | grep CapEff | cut -d : -f 2 | xargs )
 
 You can see an output similar to below screenshot . You can see the `NET_RAW` capabilities is gone/dropped in the pod, because of the enforcement by the admission policy in Kubewarden)
 
-![](../images/pic20.png)
+![](../images/kubewarden-cap-net-raw-dropped.PNG)
 
 **End of Lab02-Kubewarden** . Once you have completed the lab kindly remove drop-cap-net-raw policy under `More Resources -> policies.kubewarden.io -> AdmissionPolicies ` , 
 

@@ -162,7 +162,7 @@ metadata:
   namespace: default
 spec:
   policyServer: default
-  module: registry://ghcr.io/kubewarden/policies/psp-capabilities:v0.1.7
+  module: registry://ghcr.io/kubewarden/policies/psp-capabilities:v0.1.11
   rules:
   - apiGroups: [""]
     apiVersions: ["v1"]
